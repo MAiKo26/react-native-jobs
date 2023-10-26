@@ -1,6 +1,6 @@
-import { StyleSheet } from "react-native";
+import {StyleSheet} from "react-native";
 
-import { COLORS, FONT, SHADOWS, SIZES } from "../../../../constants";
+import {COLORS, FONT, SHADOWS, SIZES} from "../../../../constants";
 
 const styles = StyleSheet.create({
   container: (selectedJob, item) => ({
@@ -44,9 +44,9 @@ const styles = StyleSheet.create({
     justifyContent: "flex-start",
     alignItems: "center",
   },
-  publisher: (selectedJob) => ({
+  publisher: (selectedJob, item) => ({
     fontSize: SIZES.medium - 2,
-    fontFamily: FONT.bold,
+    fontFamily: FONT.regular,
     color: selectedJob === item.job_id ? COLORS.white : COLORS.primary,
   }),
   location: {

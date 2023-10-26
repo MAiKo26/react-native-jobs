@@ -1,6 +1,8 @@
-import { StyleSheet } from "react-native";
-
-import { COLORS, SHADOWS, SIZES } from "../../../../constants";
+import {StyleSheet} from "react-native";
+import "../../../../assets/fonts/DMSans-Bold.ttf";
+import "../../../../assets/fonts/DMSans-Medium.ttf";
+import "../../../../assets/fonts/DMSans-Regular.ttf";
+import {COLORS, SHADOWS, SIZES} from "../../../../constants";
 
 const styles = StyleSheet.create({
   container: {
