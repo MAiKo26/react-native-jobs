@@ -1,7 +1,4 @@
 import {StyleSheet} from "react-native";
-import "../../../../assets/fonts/DMSans-Bold.ttf";
-import "../../../../assets/fonts/DMSans-Medium.ttf";
-import "../../../../assets/fonts/DMSans-Regular.ttf";
 import {COLORS, SHADOWS, SIZES} from "../../../../constants";
 
 const styles = StyleSheet.create({
@@ -34,12 +31,10 @@ const styles = StyleSheet.create({
   },
   jobName: {
     fontSize: SIZES.medium,
-    fontFamily: "DMBold",
     color: COLORS.primary,
   },
   jobType: {
     fontSize: SIZES.small + 2,
-    fontFamily: "DMRegular",
     color: COLORS.gray,
     marginTop: 3,
     textTransform: "capitalize",
