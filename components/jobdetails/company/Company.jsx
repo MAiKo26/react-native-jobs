@@ -4,7 +4,7 @@ import {icons} from "../../../constants";
 import styles from "./company.style";
 import {checkImageURL} from "../../../utils";
 
-const Company = () => {
+const Company = ({companyLogo, jobTitle, companyName, Location}) => {
   return (
     <View style={styles.container}>
       <View style={styles.logoBox}>
@@ -16,6 +16,9 @@ const Company = () => {
           }}
           style={styles.logoImage}
         />
+      </View>
+      <View style={styles.jobTitleBox}>
+        <Text style={styles.jobTitle}>{jobTitle}</Text>
       </View>
       <View style={styles.companyInfoBox}>
         <Text style={styles.companyName}>{companyName}</Text>
