@@ -35,3 +35,4 @@
 3. Install dependencies: `npm install` or `yarn install`
 4. Start the Expo development server: `expo start`
 5. Open the Expo client on your mobile device or emulator to run the app.
+
