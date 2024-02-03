@@ -2,7 +2,7 @@
 
 ## Overview
 
-`react-native-jobs` is a React Native application designed for job search and exploration. It utilizes Expo during development to provide a seamless experience for both Android and iOS platforms.
+`react-native-jobs` is a React Native application designed for job search and exploration. It utilizes Expo during development to provide a seamless experience for both Android and iOS platforms. Followed this [Tutorial](https://www.youtube.com/watch?v=mJ3bGvy0WAY&t=6891s) while doing this project and added my modifications.
 
 ## Features
 
